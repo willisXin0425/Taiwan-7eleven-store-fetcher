@@ -1,59 +1,70 @@
 const axios = require("axios");
 const { DOMParser } = require("xmldom");
+const fs = require("fs");
+const { store_id } = require("./store_Id");
 
-const { TownData } = require("./Town_data");
-const { store_id } = require("./Store_Id");
-
-const formatXml = (xmlString) => {
-  // 1. 建立一個 DOMParser 實體
+// 解析店家 HTML 資料
+const parseStoreHtml = (htmlString) => {
+  if (htmlString.includes("無符合條件的門市資料")) {
+    return [];
+  }
+  // 1. 建立 DOMParser 實體
   const parser = new DOMParser();
-  // 2. 將 XML 字串解析成一個 XML 文件物件
-  const xmlDoc = parser.parseFromString(xmlString, "application/xml");
+  // 2. 將 HTML 字串解析成文件物件
+  const doc = parser.parseFromString(htmlString, "text/html");
 
-  // 3. 取得所有的 <GeoPosition> 節點
-  const geoPositions = xmlDoc.getElementsByTagName("GeoPosition");
+  // 3. 取得所有的 <tr> 節點
+  const rows = doc.getElementsByTagName("tr");
 
-  // 4. 遍歷所有 <GeoPosition> 節點，並將其轉換成物件
-  const townData = Array.from(geoPositions).map((position) => {
-    return {
-      townId: position.getElementsByTagName("TownID")[0]?.textContent || "",
-      townName: position.getElementsByTagName("TownName")[0]?.textContent || "",
-      x: position.getElementsByTagName("X")[0]?.textContent || "",
-      y: position.getElementsByTagName("Y")[0]?.textContent || "",
-    };
-  });
-  return townData;
+  // 4. 遍歷 <tr> 節點 (跳過第一個 header)，轉換成物件
+  const stores = Array.from(rows)
+    .slice(1)
+    .map((row) => {
+      const cells = row.getElementsByTagName("td");
+      return {
+        storeId: cells[0]?.textContent.trim() || "",
+        storeName: cells[1]?.textContent.trim() || "",
+        address: cells[2]?.textContent.trim() || "",
+      };
+    });
+  return stores;
 };
 
-const fetchTownData = async (item) => {
-  const url = "http://emap.pcsc.com.tw/EMapSDK.aspx";
+const fetchStoreData = async (item) => {
+  // 使用 http://www.ibon.com.tw/retail_inquiry.aspx#gsc.tab=0 網站資料
+  const url = "https://www.ibon.com.tw/retail_inquiry_ajax.aspx";
   const params = new URLSearchParams();
-  params.append("commandid", "GetTown");
-  params.append("cityid", item.areaID);
+  params.append("strTargetField", "COUNTY");
+  params.append("strKeyWords", item.area);
   const xmlString = await axios.post(url, params, {
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
     },
   });
-  const townData = formatXml(xmlString.data);
+  const stores = parseStoreHtml(xmlString.data);
 
   const cityData = {
     city: item.area,
     cityID: item.areaID,
-    townData,
+    stores,
   };
 
   return cityData;
 };
 
-const handleGetElShop = async () => {
-  const allCityData = await Promise.all(
-    store_id.map((item) => {
-      return fetchTownData(item);
-    }),
-  );
+// 儲存 JSON 文件
+const saveToJson = (data, fileName) => {
+  fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
+  console.log(`已成功將資料儲存為 ${fileName}`);
 };
 
-// handleGetElShop();
+const handleGetElShop = async () => {
+  const allStoreData = await Promise.all(
+    store_id.map((item) => {
+      return fetchStoreData(item);
+    }),
+  );
+  saveToJson(allStoreData, "parsed_store_data.json");
+};
 
-formatXml(TownData);
+handleGetElShop();
