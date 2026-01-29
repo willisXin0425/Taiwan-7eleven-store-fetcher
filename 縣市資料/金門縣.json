@@ -1,0 +1,138 @@
+{
+  "city": "金門縣",
+  "storeData": [
+    {
+      "townName": "金湖鎮",
+      "storeData": [
+        {
+          "storeID": "262248",
+          "storeName": "太武山"
+        },
+        {
+          "storeID": "210351",
+          "storeName": "金門醫院"
+        },
+        {
+          "storeID": "242288",
+          "storeName": "金冠"
+        },
+        {
+          "storeID": "243144",
+          "storeName": "金航"
+        },
+        {
+          "storeID": "199898",
+          "storeName": "金囍"
+        },
+        {
+          "storeID": "194192",
+          "storeName": "鈦湖"
+        },
+        {
+          "storeID": "250108",
+          "storeName": "新山外"
+        },
+        {
+          "storeID": "263078",
+          "storeName": "新再發"
+        }
+      ]
+    },
+    {
+      "townName": "金沙鎮",
+      "storeData": [
+        {
+          "storeID": "183871",
+          "storeName": "中蘭"
+        },
+        {
+          "storeID": "216326",
+          "storeName": "陽翟"
+        },
+        {
+          "storeID": "970059",
+          "storeName": "新沙美"
+        }
+      ]
+    },
+    {
+      "townName": "金城鎮",
+      "storeData": [
+        {
+          "storeID": "236331",
+          "storeName": "金民"
+        },
+        {
+          "storeID": "255055",
+          "storeName": "金生"
+        },
+        {
+          "storeID": "281179",
+          "storeName": "金石"
+        },
+        {
+          "storeID": "253668",
+          "storeName": "金門城"
+        },
+        {
+          "storeID": "882921",
+          "storeName": "金亮"
+        },
+        {
+          "storeID": "235682",
+          "storeName": "金喬"
+        },
+        {
+          "storeID": "281098",
+          "storeName": "金港"
+        },
+        {
+          "storeID": "981598",
+          "storeName": "金豪"
+        },
+        {
+          "storeID": "251525",
+          "storeName": "金誼"
+        }
+      ]
+    },
+    {
+      "townName": "金寧鄉",
+      "storeData": [
+        {
+          "storeID": "241263",
+          "storeName": "下埔下"
+        },
+        {
+          "storeID": "237851",
+          "storeName": "金央"
+        },
+        {
+          "storeID": "277181",
+          "storeName": "金門大學"
+        },
+        {
+          "storeID": "970820",
+          "storeName": "金寧"
+        },
+        {
+          "storeID": "284156",
+          "storeName": "樂多"
+        }
+      ]
+    },
+    {
+      "townName": "烈嶼鄉",
+      "storeData": [
+        {
+          "storeID": "285861",
+          "storeName": "小金"
+        },
+        {
+          "storeID": "281869",
+          "storeName": "烈嶼"
+        }
+      ]
+    }
+  ]
+}

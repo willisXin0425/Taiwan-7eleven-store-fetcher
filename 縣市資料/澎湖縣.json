@@ -1,0 +1,191 @@
+{
+  "city": "澎湖縣",
+  "storeData": [
+    {
+      "townName": "馬公市",
+      "storeData": [
+        {
+          "storeID": "941833",
+          "storeName": "井垵"
+        },
+        {
+          "storeID": "257512",
+          "storeName": "五福春"
+        },
+        {
+          "storeID": "892571",
+          "storeName": "天人菊"
+        },
+        {
+          "storeID": "922201",
+          "storeName": "文光"
+        },
+        {
+          "storeID": "120467",
+          "storeName": "文澳"
+        },
+        {
+          "storeID": "184140",
+          "storeName": "北岸"
+        },
+        {
+          "storeID": "909574",
+          "storeName": "石泉"
+        },
+        {
+          "storeID": "280408",
+          "storeName": "百麗"
+        },
+        {
+          "storeID": "202095",
+          "storeName": "西文"
+        },
+        {
+          "storeID": "900762",
+          "storeName": "西衛"
+        },
+        {
+          "storeID": "113883",
+          "storeName": "東衛"
+        },
+        {
+          "storeID": "195483",
+          "storeName": "南洋"
+        },
+        {
+          "storeID": "209476",
+          "storeName": "海藍"
+        },
+        {
+          "storeID": "194310",
+          "storeName": "航空城"
+        },
+        {
+          "storeID": "987806",
+          "storeName": "馬公"
+        },
+        {
+          "storeID": "257257",
+          "storeName": "馬公三多"
+        },
+        {
+          "storeID": "113506",
+          "storeName": "揚光"
+        },
+        {
+          "storeID": "930545",
+          "storeName": "新台澎"
+        },
+        {
+          "storeID": "901891",
+          "storeName": "新澎湖"
+        },
+        {
+          "storeID": "153892",
+          "storeName": "澎文"
+        },
+        {
+          "storeID": "941202",
+          "storeName": "澎技"
+        },
+        {
+          "storeID": "228008",
+          "storeName": "澎科大"
+        },
+        {
+          "storeID": "262064",
+          "storeName": "澎港"
+        },
+        {
+          "storeID": "268110",
+          "storeName": "澎福"
+        },
+        {
+          "storeID": "233583",
+          "storeName": "澎樂"
+        },
+        {
+          "storeID": "274540",
+          "storeName": "澎衛"
+        },
+        {
+          "storeID": "166740",
+          "storeName": "澎興"
+        },
+        {
+          "storeID": "282105",
+          "storeName": "澎灣"
+        },
+        {
+          "storeID": "151391",
+          "storeName": "鎖港"
+        },
+        {
+          "storeID": "228994",
+          "storeName": "鑫光復"
+        }
+      ]
+    },
+    {
+      "townName": "湖西鄉",
+      "storeData": [
+        {
+          "storeID": "237932",
+          "storeName": "永興順"
+        },
+        {
+          "storeID": "181750",
+          "storeName": "馬航"
+        },
+        {
+          "storeID": "130095",
+          "storeName": "湖西"
+        }
+      ]
+    },
+    {
+      "townName": "白沙鄉",
+      "storeData": [
+        {
+          "storeID": "900795",
+          "storeName": "白沙"
+        },
+        {
+          "storeID": "264462",
+          "storeName": "講美"
+        }
+      ]
+    },
+    {
+      "townName": "西嶼鄉",
+      "storeData": [
+        {
+          "storeID": "188201",
+          "storeName": "跨海"
+        },
+        {
+          "storeID": "951106",
+          "storeName": "漁翁"
+        }
+      ]
+    },
+    {
+      "townName": "望安鄉",
+      "storeData": [
+        {
+          "storeID": "232649",
+          "storeName": "望安"
+        }
+      ]
+    },
+    {
+      "townName": "七美鄉",
+      "storeData": [
+        {
+          "storeID": "153869",
+          "storeName": "七美"
+        }
+      ]
+    }
+  ]
+}

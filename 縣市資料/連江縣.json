@@ -1,0 +1,69 @@
+{
+  "city": "連江縣",
+  "storeData": [
+    {
+      "townName": "南竿鄉",
+      "storeData": [
+        {
+          "storeID": "206617",
+          "storeName": "山隴"
+        },
+        {
+          "storeID": "282149",
+          "storeName": "中隴"
+        },
+        {
+          "storeID": "950376",
+          "storeName": "南竿"
+        },
+        {
+          "storeID": "262824",
+          "storeName": "馬祖"
+        },
+        {
+          "storeID": "952512",
+          "storeName": "馬港"
+        },
+        {
+          "storeID": "194055",
+          "storeName": "福澳港"
+        }
+      ]
+    },
+    {
+      "townName": "北竿鄉",
+      "storeData": [
+        {
+          "storeID": "952523",
+          "storeName": "北竿"
+        },
+        {
+          "storeID": "250223",
+          "storeName": "坪里"
+        },
+        {
+          "storeID": "250348",
+          "storeName": "塘岐"
+        }
+      ]
+    },
+    {
+      "townName": "莒光鄉",
+      "storeData": [
+        {
+          "storeID": "209029",
+          "storeName": "東莒"
+        }
+      ]
+    },
+    {
+      "townName": "東引鄉",
+      "storeData": [
+        {
+          "storeID": "188957",
+          "storeName": "東引"
+        }
+      ]
+    }
+  ]
+}

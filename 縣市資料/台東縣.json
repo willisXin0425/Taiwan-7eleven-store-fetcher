@@ -1,0 +1,385 @@
+{
+  "city": "台東縣",
+  "storeData": [
+    {
+      "townName": "台東市",
+      "storeData": [
+        {
+          "storeID": "181015",
+          "storeName": "三越"
+        },
+        {
+          "storeID": "160188",
+          "storeName": "仁毅"
+        },
+        {
+          "storeID": "260600",
+          "storeName": "天喜"
+        },
+        {
+          "storeID": "232661",
+          "storeName": "台東東奇"
+        },
+        {
+          "storeID": "281685",
+          "storeName": "弘裕"
+        },
+        {
+          "storeID": "132806",
+          "storeName": "正東"
+        },
+        {
+          "storeID": "260460",
+          "storeName": "正東購物車"
+        },
+        {
+          "storeID": "280707",
+          "storeName": "吉川"
+        },
+        {
+          "storeID": "970071",
+          "storeName": "成貞"
+        },
+        {
+          "storeID": "151232",
+          "storeName": "利嘉"
+        },
+        {
+          "storeID": "249533",
+          "storeName": "享溫馨"
+        },
+        {
+          "storeID": "174615",
+          "storeName": "卑南"
+        },
+        {
+          "storeID": "143895",
+          "storeName": "東大"
+        },
+        {
+          "storeID": "120685",
+          "storeName": "東太陽"
+        },
+        {
+          "storeID": "180702",
+          "storeName": "東安"
+        },
+        {
+          "storeID": "921231",
+          "storeName": "東京"
+        },
+        {
+          "storeID": "250201",
+          "storeName": "東佳"
+        },
+        {
+          "storeID": "914141",
+          "storeName": "東定"
+        },
+        {
+          "storeID": "235707",
+          "storeName": "東宜"
+        },
+        {
+          "storeID": "160258",
+          "storeName": "東昇"
+        },
+        {
+          "storeID": "280028",
+          "storeName": "東亮"
+        },
+        {
+          "storeID": "262318",
+          "storeName": "東星"
+        },
+        {
+          "storeID": "192831",
+          "storeName": "東站"
+        },
+        {
+          "storeID": "872599",
+          "storeName": "東航"
+        },
+        {
+          "storeID": "249005",
+          "storeName": "東偕"
+        },
+        {
+          "storeID": "207908",
+          "storeName": "東基"
+        },
+        {
+          "storeID": "997652",
+          "storeName": "東捷"
+        },
+        {
+          "storeID": "230366",
+          "storeName": "東盛"
+        },
+        {
+          "storeID": "127033",
+          "storeName": "東博"
+        },
+        {
+          "storeID": "155005",
+          "storeName": "東喜"
+        },
+        {
+          "storeID": "888099",
+          "storeName": "東漢"
+        },
+        {
+          "storeID": "258445",
+          "storeName": "東廣"
+        },
+        {
+          "storeID": "954574",
+          "storeName": "東樂"
+        },
+        {
+          "storeID": "138077",
+          "storeName": "東輝"
+        },
+        {
+          "storeID": "166382",
+          "storeName": "東糖"
+        },
+        {
+          "storeID": "987736",
+          "storeName": "知本"
+        },
+        {
+          "storeID": "932998",
+          "storeName": "冠美"
+        },
+        {
+          "storeID": "991665",
+          "storeName": "富岡"
+        },
+        {
+          "storeID": "230034",
+          "storeName": "開漢"
+        },
+        {
+          "storeID": "968078",
+          "storeName": "新南王"
+        },
+        {
+          "storeID": "243801",
+          "storeName": "祺淯"
+        },
+        {
+          "storeID": "258102",
+          "storeName": "鉦祺"
+        },
+        {
+          "storeID": "184379",
+          "storeName": "睿豐"
+        },
+        {
+          "storeID": "202246",
+          "storeName": "豐喜"
+        }
+      ]
+    },
+    {
+      "townName": "成功鎮",
+      "storeData": [
+        {
+          "storeID": "260965",
+          "storeName": "欣功"
+        },
+        {
+          "storeID": "978101",
+          "storeName": "欣東旺"
+        },
+        {
+          "storeID": "209845",
+          "storeName": "都歷"
+        }
+      ]
+    },
+    {
+      "townName": "關山鎮",
+      "storeData": [
+        {
+          "storeID": "244354",
+          "storeName": "台東關豐"
+        },
+        {
+          "storeID": "122957",
+          "storeName": "關山"
+        }
+      ]
+    },
+    {
+      "townName": "卑南鄉",
+      "storeData": [
+        {
+          "storeID": "122795",
+          "storeName": "東遊季"
+        },
+        {
+          "storeID": "163958",
+          "storeName": "初鹿"
+        }
+      ]
+    },
+    {
+      "townName": "鹿野鄉",
+      "storeData": [
+        {
+          "storeID": "241920",
+          "storeName": "花鹿米"
+        },
+        {
+          "storeID": "126339",
+          "storeName": "新鹿野"
+        },
+        {
+          "storeID": "241919",
+          "storeName": "瑞源"
+        },
+        {
+          "storeID": "227603",
+          "storeName": "熱氣球"
+        }
+      ]
+    },
+    {
+      "townName": "池上鄉",
+      "storeData": [
+        {
+          "storeID": "110677",
+          "storeName": "池上"
+        },
+        {
+          "storeID": "200538",
+          "storeName": "米鄉"
+        },
+        {
+          "storeID": "142825",
+          "storeName": "東馳"
+        }
+      ]
+    },
+    {
+      "townName": "東河鄉",
+      "storeData": [
+        {
+          "storeID": "952833",
+          "storeName": "東河"
+        },
+        {
+          "storeID": "892962",
+          "storeName": "都蘭"
+        }
+      ]
+    },
+    {
+      "townName": "長濱鄉",
+      "storeData": [
+        {
+          "storeID": "232605",
+          "storeName": "金剛"
+        },
+        {
+          "storeID": "287959",
+          "storeName": "長濱"
+        }
+      ]
+    },
+    {
+      "townName": "太麻里鄉",
+      "storeData": [
+        {
+          "storeID": "163796",
+          "storeName": "金倫"
+        },
+        {
+          "storeID": "193878",
+          "storeName": "香蘭"
+        },
+        {
+          "storeID": "239352",
+          "storeName": "新太麻里"
+        }
+      ]
+    },
+    {
+      "townName": "大武鄉",
+      "storeData": [
+        {
+          "storeID": "153928",
+          "storeName": "大武"
+        },
+        {
+          "storeID": "233686",
+          "storeName": "大武之心"
+        },
+        {
+          "storeID": "940472",
+          "storeName": "尚武"
+        }
+      ]
+    },
+    {
+      "townName": "綠島鄉",
+      "storeData": [
+        {
+          "storeID": "249854",
+          "storeName": "綠島"
+        }
+      ]
+    },
+    {
+      "townName": "海端鄉",
+      "storeData": [
+        {
+          "storeID": "232100",
+          "storeName": "初來"
+        }
+      ]
+    },
+    {
+      "townName": "延平鄉",
+      "storeData": [
+        {
+          "storeID": "232133",
+          "storeName": "延平鄉"
+        }
+      ]
+    },
+    {
+      "townName": "金峰鄉",
+      "storeData": [
+        {
+          "storeID": "242820",
+          "storeName": "金峰鄉"
+        }
+      ]
+    },
+    {
+      "townName": "達仁鄉",
+      "storeData": [
+        {
+          "storeID": "209959",
+          "storeName": "達武"
+        }
+      ]
+    },
+    {
+      "townName": "蘭嶼鄉",
+      "storeData": [
+        {
+          "storeID": "167754",
+          "storeName": "東清灣"
+        },
+        {
+          "storeID": "142892",
+          "storeName": "蘭嶼"
+        }
+      ]
+    }
+  ]
+}

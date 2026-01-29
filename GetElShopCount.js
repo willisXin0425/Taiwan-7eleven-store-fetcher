@@ -1,63 +1,100 @@
 const axios = require("axios");
-const { DOMParser } = require("xmldom");
-const { store_id } = require("./store_Id");
+const { XMLParser } = require("fast-xml-parser");
+const fs = require("fs");
 
-// 解析店家 HTML 資料
-const parseStoreHtml = (htmlString) => {
-  if (htmlString.includes("無符合條件的門市資料")) {
-    return [];
-  }
-  // 1. 建立 DOMParser 實體
-  const parser = new DOMParser();
-  // 2. 將 HTML 字串解析成文件物件
-  const doc = parser.parseFromString(htmlString, "text/html");
+// content
+const city_id = require("./city_id");
 
-  // 3. 取得所有的 <tr> 節點
-  const rows = doc.getElementsByTagName("tr");
+// 使用 https://emap.pcsc.com.tw/ 網站資料
+const url = "https://emap.pcsc.com.tw/EMapSDK.aspx";
 
-  // 4. 遍歷 <tr> 節點 (跳過第一個 header)，轉換成物件
-  const stores = Array.from(rows)
-    .slice(1)
-    .map((row) => {
-      const cells = row.getElementsByTagName("td");
-      return {
-        storeId: cells[0]?.textContent.trim() || "",
-        storeName: cells[1]?.textContent.trim() || "",
-        address: cells[2]?.textContent.trim() || "",
-      };
-    });
-  return stores;
+// 儲存 JSON 文件
+const saveToJson = (data, fileName) => {
+  fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
+  console.log(`已成功將資料儲存為 ${fileName}`);
 };
 
-const fetchStoreData = async (item) => {
-  // 使用 http://www.ibon.com.tw/retail_inquiry.aspx#gsc.tab=0 網站資料
-  const url = "https://www.ibon.com.tw/retail_inquiry_ajax.aspx";
+const parseTownXml = (xmlString) => {
+  const parser = new XMLParser();
+  const jsonObj = parser.parse(xmlString);
+  if (jsonObj.iMapSDKOutput && jsonObj.iMapSDKOutput.GeoPosition) {
+    const geoPositions = Array.isArray(jsonObj.iMapSDKOutput.GeoPosition)
+      ? jsonObj.iMapSDKOutput.GeoPosition
+      : [jsonObj.iMapSDKOutput.GeoPosition];
+
+    return geoPositions.map((pos) => ({
+      TownID: pos.TownID,
+      TownName: pos.TownName,
+    }));
+  }
+  return [];
+};
+
+const parseStoreXml = (xmlString) => {
+  const parser = new XMLParser();
+  const jsonObj = parser.parse(xmlString);
+  if (jsonObj.iMapSDKOutput && jsonObj.iMapSDKOutput.GeoPosition) {
+    const geoPositions = Array.isArray(jsonObj.iMapSDKOutput.GeoPosition)
+      ? jsonObj.iMapSDKOutput.GeoPosition
+      : [jsonObj.iMapSDKOutput.GeoPosition];
+    return geoPositions.map((pos) => ({
+      storeID: pos.POIID ? String(pos.POIID).trim() : "",
+      storeName: pos.POIName,
+    }));
+  }
+  return [];
+};
+
+const fetchCityAreaData = async (city) => {
   const params = new URLSearchParams();
-  params.append("strTargetField", "COUNTY");
-  params.append("strKeyWords", item.area);
+  params.append("commandid", "GetTown");
+  params.append("cityid", city?.areaID);
   const xmlString = await axios.post(url, params, {
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
     },
   });
-  const stores = parseStoreHtml(xmlString.data);
-
-  const cityData = {
-    city: item.area,
-    cityID: item.areaID,
-    stores,
+  const townData = parseTownXml(xmlString.data);
+  return {
+    ...city,
+    towns: townData,
   };
-
-  return cityData;
 };
 
-const handleGetElShop = async () => {
-  const allStoreData = await Promise.all(
-    store_id.map((item) => {
-      return fetchStoreData(item);
+const fetchStoreData = async (area, townName) => {
+  const params = new URLSearchParams();
+  params.append("commandid", "SearchStore");
+  params.append("city", area);
+  params.append("town", townName);
+  const xmlString = await axios.post(url, params, {
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+  });
+  const storeData = parseStoreXml(xmlString.data);
+  return {
+    townName,
+    storeData,
+  };
+};
+
+const handleGetShop = async () => {
+  const CityAreaData = await Promise.all(
+    city_id.map((item) => {
+      return fetchCityAreaData(item);
     }),
   );
-  saveToJson(allStoreData, "parsed_store_data.json");
+  for (const city of CityAreaData) {
+    const storeData = await Promise.all(
+      city.towns.map((town) => fetchStoreData(city.area, town.TownName)),
+    );
+    const data = {
+      city: city.area,
+      storeData,
+    };
+    saveToJson(data, `${city.area}.json`);
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+  }
 };
 
-handleGetElShop();
+// handleGetShop();

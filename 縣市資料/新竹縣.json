@@ -1,0 +1,973 @@
+{
+  "city": "新竹縣",
+  "storeData": [
+    {
+      "townName": "竹北市",
+      "storeData": [
+        {
+          "storeID": "262259",
+          "storeName": "十興"
+        },
+        {
+          "storeID": "274001",
+          "storeName": "大勝"
+        },
+        {
+          "storeID": "181602",
+          "storeName": "大硯"
+        },
+        {
+          "storeID": "282943",
+          "storeName": "中新"
+        },
+        {
+          "storeID": "251857",
+          "storeName": "六家"
+        },
+        {
+          "storeID": "281788",
+          "storeName": "文元"
+        },
+        {
+          "storeID": "236892",
+          "storeName": "文嘉"
+        },
+        {
+          "storeID": "210487",
+          "storeName": "日和"
+        },
+        {
+          "storeID": "257800",
+          "storeName": "木木"
+        },
+        {
+          "storeID": "284237",
+          "storeName": "加勝"
+        },
+        {
+          "storeID": "234944",
+          "storeName": "北泱"
+        },
+        {
+          "storeID": "279969",
+          "storeName": "北泰"
+        },
+        {
+          "storeID": "273857",
+          "storeName": "北崙"
+        },
+        {
+          "storeID": "255228",
+          "storeName": "台博"
+        },
+        {
+          "storeID": "268442",
+          "storeName": "生醫"
+        },
+        {
+          "storeID": "228938",
+          "storeName": "禾笙"
+        },
+        {
+          "storeID": "261599",
+          "storeName": "禾遠"
+        },
+        {
+          "storeID": "239318",
+          "storeName": "光揚"
+        },
+        {
+          "storeID": "210801",
+          "storeName": "印月"
+        },
+        {
+          "storeID": "122038",
+          "storeName": "宇軒"
+        },
+        {
+          "storeID": "259932",
+          "storeName": "竹元"
+        },
+        {
+          "storeID": "216784",
+          "storeName": "竹北"
+        },
+        {
+          "storeID": "257110",
+          "storeName": "竹北中正西"
+        },
+        {
+          "storeID": "261326",
+          "storeName": "竹北中華"
+        },
+        {
+          "storeID": "257028",
+          "storeName": "竹北勝利"
+        },
+        {
+          "storeID": "256449",
+          "storeName": "竹北復興"
+        },
+        {
+          "storeID": "236906",
+          "storeName": "竹杉"
+        },
+        {
+          "storeID": "131456",
+          "storeName": "竹崙"
+        },
+        {
+          "storeID": "199429",
+          "storeName": "竹樺"
+        },
+        {
+          "storeID": "997847",
+          "storeName": "沐庭"
+        },
+        {
+          "storeID": "286059",
+          "storeName": "府樂"
+        },
+        {
+          "storeID": "233181",
+          "storeName": "旺矽"
+        },
+        {
+          "storeID": "210797",
+          "storeName": "昌樂"
+        },
+        {
+          "storeID": "283267",
+          "storeName": "明采"
+        },
+        {
+          "storeID": "263573",
+          "storeName": "東鐵"
+        },
+        {
+          "storeID": "180322",
+          "storeName": "采虹"
+        },
+        {
+          "storeID": "241953",
+          "storeName": "星空"
+        },
+        {
+          "storeID": "883315",
+          "storeName": "飛利浦"
+        },
+        {
+          "storeID": "122603",
+          "storeName": "首璽"
+        },
+        {
+          "storeID": "237828",
+          "storeName": "家安"
+        },
+        {
+          "storeID": "281250",
+          "storeName": "家興"
+        },
+        {
+          "storeID": "929187",
+          "storeName": "泰鑫"
+        },
+        {
+          "storeID": "153537",
+          "storeName": "強利"
+        },
+        {
+          "storeID": "264440",
+          "storeName": "強鹿"
+        },
+        {
+          "storeID": "182018",
+          "storeName": "晨星科"
+        },
+        {
+          "storeID": "255239",
+          "storeName": "統賀"
+        },
+        {
+          "storeID": "210306",
+          "storeName": "鹿禾"
+        },
+        {
+          "storeID": "923226",
+          "storeName": "鹿家"
+        },
+        {
+          "storeID": "233066",
+          "storeName": "麻源"
+        },
+        {
+          "storeID": "142559",
+          "storeName": "博明"
+        },
+        {
+          "storeID": "275129",
+          "storeName": "博祐"
+        },
+        {
+          "storeID": "273879",
+          "storeName": "敬興"
+        },
+        {
+          "storeID": "259172",
+          "storeName": "新三民"
+        },
+        {
+          "storeID": "285850",
+          "storeName": "新北竹"
+        },
+        {
+          "storeID": "273732",
+          "storeName": "新台元"
+        },
+        {
+          "storeID": "251569",
+          "storeName": "新瓦屋"
+        },
+        {
+          "storeID": "250197",
+          "storeName": "新安村"
+        },
+        {
+          "storeID": "256553",
+          "storeName": "新竹縣政府"
+        },
+        {
+          "storeID": "264071",
+          "storeName": "新縣政"
+        },
+        {
+          "storeID": "207436",
+          "storeName": "新縣福"
+        },
+        {
+          "storeID": "200125",
+          "storeName": "義山"
+        },
+        {
+          "storeID": "261164",
+          "storeName": "隘口"
+        },
+        {
+          "storeID": "288251",
+          "storeName": "嘉政二"
+        },
+        {
+          "storeID": "274311",
+          "storeName": "嘉家"
+        },
+        {
+          "storeID": "123189",
+          "storeName": "嘉豐"
+        },
+        {
+          "storeID": "253727",
+          "storeName": "福崙"
+        },
+        {
+          "storeID": "273880",
+          "storeName": "銓國"
+        },
+        {
+          "storeID": "231473",
+          "storeName": "鳳杉"
+        },
+        {
+          "storeID": "286071",
+          "storeName": "鳳岡"
+        },
+        {
+          "storeID": "944588",
+          "storeName": "鳳岡"
+        },
+        {
+          "storeID": "265742",
+          "storeName": "緯創 AI"
+        },
+        {
+          "storeID": "280774",
+          "storeName": "縣汶"
+        },
+        {
+          "storeID": "279350",
+          "storeName": "縣科"
+        },
+        {
+          "storeID": "260714",
+          "storeName": "縣運"
+        },
+        {
+          "storeID": "211099",
+          "storeName": "環鑫"
+        },
+        {
+          "storeID": "278128",
+          "storeName": "豐禾"
+        },
+        {
+          "storeID": "193487",
+          "storeName": "豐富"
+        },
+        {
+          "storeID": "214685",
+          "storeName": "鐵站"
+        },
+        {
+          "storeID": "214696",
+          "storeName": "鐵站二"
+        },
+        {
+          "storeID": "252078",
+          "storeName": "鐵興"
+        },
+        {
+          "storeID": "269663",
+          "storeName": "鑫庄"
+        }
+      ]
+    },
+    {
+      "townName": "竹東鎮",
+      "storeData": [
+        {
+          "storeID": "244398",
+          "storeName": "工研X7"
+        },
+        {
+          "storeID": "871976",
+          "storeName": "光春"
+        },
+        {
+          "storeID": "268855",
+          "storeName": "安筌"
+        },
+        {
+          "storeID": "264004",
+          "storeName": "竹永"
+        },
+        {
+          "storeID": "251374",
+          "storeName": "竹東"
+        },
+        {
+          "storeID": "276605",
+          "storeName": "竹豐"
+        },
+        {
+          "storeID": "278140",
+          "storeName": "昌春"
+        },
+        {
+          "storeID": "280257",
+          "storeName": "東宏"
+        },
+        {
+          "storeID": "277675",
+          "storeName": "東亭"
+        },
+        {
+          "storeID": "209823",
+          "storeName": "東睿"
+        },
+        {
+          "storeID": "958956",
+          "storeName": "東福"
+        },
+        {
+          "storeID": "181059",
+          "storeName": "東興"
+        },
+        {
+          "storeID": "155429",
+          "storeName": "東融"
+        },
+        {
+          "storeID": "242266",
+          "storeName": "東營"
+        },
+        {
+          "storeID": "279626",
+          "storeName": "東豐"
+        },
+        {
+          "storeID": "188979",
+          "storeName": "東鑽"
+        },
+        {
+          "storeID": "252964",
+          "storeName": "長政"
+        },
+        {
+          "storeID": "195287",
+          "storeName": "星都心"
+        },
+        {
+          "storeID": "234209",
+          "storeName": "星都匯"
+        },
+        {
+          "storeID": "941121",
+          "storeName": "員崠"
+        },
+        {
+          "storeID": "193144",
+          "storeName": "員道"
+        },
+        {
+          "storeID": "274791",
+          "storeName": "商華"
+        },
+        {
+          "storeID": "279615",
+          "storeName": "崠豪"
+        },
+        {
+          "storeID": "165002",
+          "storeName": "富正"
+        },
+        {
+          "storeID": "239064",
+          "storeName": "朝陽"
+        },
+        {
+          "storeID": "130707",
+          "storeName": "菄族"
+        },
+        {
+          "storeID": "258065",
+          "storeName": "豐荷"
+        },
+        {
+          "storeID": "240271",
+          "storeName": "寶山"
+        }
+      ]
+    },
+    {
+      "townName": "新埔鎮",
+      "storeData": [
+        {
+          "storeID": "230894",
+          "storeName": "埔山"
+        },
+        {
+          "storeID": "893655",
+          "storeName": "埔中"
+        },
+        {
+          "storeID": "137535",
+          "storeName": "埔田"
+        },
+        {
+          "storeID": "167606",
+          "storeName": "埔昌"
+        },
+        {
+          "storeID": "193007",
+          "storeName": "埔嵩"
+        },
+        {
+          "storeID": "132356",
+          "storeName": "埔義"
+        },
+        {
+          "storeID": "273592",
+          "storeName": "新埔"
+        },
+        {
+          "storeID": "236283",
+          "storeName": "翰聖"
+        }
+      ]
+    },
+    {
+      "townName": "關西鎮",
+      "storeData": [
+        {
+          "storeID": "141659",
+          "storeName": "石光"
+        },
+        {
+          "storeID": "256014",
+          "storeName": "威武"
+        },
+        {
+          "storeID": "275624",
+          "storeName": "馬武督"
+        },
+        {
+          "storeID": "911876",
+          "storeName": "新關中"
+        },
+        {
+          "storeID": "242347",
+          "storeName": "關功"
+        },
+        {
+          "storeID": "130475",
+          "storeName": "關西"
+        }
+      ]
+    },
+    {
+      "townName": "湖口鄉",
+      "storeData": [
+        {
+          "storeID": "285447",
+          "storeName": "力成三"
+        },
+        {
+          "storeID": "286484",
+          "storeName": "力成玖"
+        },
+        {
+          "storeID": "287144",
+          "storeName": "力成科"
+        },
+        {
+          "storeID": "286440",
+          "storeName": "力成貳"
+        },
+        {
+          "storeID": "910806",
+          "storeName": "三立"
+        },
+        {
+          "storeID": "273547",
+          "storeName": "仁智"
+        },
+        {
+          "storeID": "212210",
+          "storeName": "仁順"
+        },
+        {
+          "storeID": "149310",
+          "storeName": "文樂"
+        },
+        {
+          "storeID": "279028",
+          "storeName": "王爺"
+        },
+        {
+          "storeID": "286141",
+          "storeName": "王爺"
+        },
+        {
+          "storeID": "242141",
+          "storeName": "安順"
+        },
+        {
+          "storeID": "232672",
+          "storeName": "竹樂"
+        },
+        {
+          "storeID": "953489",
+          "storeName": "宏橋"
+        },
+        {
+          "storeID": "228178",
+          "storeName": "沅均"
+        },
+        {
+          "storeID": "235626",
+          "storeName": "昊恆"
+        },
+        {
+          "storeID": "110699",
+          "storeName": "耕新"
+        },
+        {
+          "storeID": "242565",
+          "storeName": "悠揚"
+        },
+        {
+          "storeID": "990880",
+          "storeName": "晨希"
+        },
+        {
+          "storeID": "167765",
+          "storeName": "晨寶"
+        },
+        {
+          "storeID": "123363",
+          "storeName": "湖口"
+        },
+        {
+          "storeID": "255848",
+          "storeName": "湖口大智"
+        },
+        {
+          "storeID": "233826",
+          "storeName": "湖口中正"
+        },
+        {
+          "storeID": "256092",
+          "storeName": "湖口民生"
+        },
+        {
+          "storeID": "257039",
+          "storeName": "湖口成功"
+        },
+        {
+          "storeID": "256542",
+          "storeName": "湖口信昌"
+        },
+        {
+          "storeID": "243856",
+          "storeName": "湖口達成"
+        },
+        {
+          "storeID": "169886",
+          "storeName": "湖口廠"
+        },
+        {
+          "storeID": "257648",
+          "storeName": "湖口德享"
+        },
+        {
+          "storeID": "252115",
+          "storeName": "湖大"
+        },
+        {
+          "storeID": "250625",
+          "storeName": "湖山"
+        },
+        {
+          "storeID": "234933",
+          "storeName": "湖功"
+        },
+        {
+          "storeID": "288217",
+          "storeName": "湖市"
+        },
+        {
+          "storeID": "988337",
+          "storeName": "湖安"
+        },
+        {
+          "storeID": "187091",
+          "storeName": "湖崗"
+        },
+        {
+          "storeID": "209982",
+          "storeName": "湖貫"
+        },
+        {
+          "storeID": "276340",
+          "storeName": "新湖工"
+        },
+        {
+          "storeID": "966865",
+          "storeName": "新湖中"
+        },
+        {
+          "storeID": "910703",
+          "storeName": "源威"
+        },
+        {
+          "storeID": "922751",
+          "storeName": "源泰"
+        },
+        {
+          "storeID": "250636",
+          "storeName": "源晟"
+        },
+        {
+          "storeID": "241506",
+          "storeName": "裝甲"
+        },
+        {
+          "storeID": "285562",
+          "storeName": "達陞"
+        },
+        {
+          "storeID": "238061",
+          "storeName": "鳳山綺"
+        },
+        {
+          "storeID": "242705",
+          "storeName": "德和"
+        },
+        {
+          "storeID": "243317",
+          "storeName": "樂禹"
+        },
+        {
+          "storeID": "268109",
+          "storeName": "緯創N2"
+        },
+        {
+          "storeID": "141718",
+          "storeName": "豐鼎"
+        },
+        {
+          "storeID": "863458",
+          "storeName": "醫湖"
+        },
+        {
+          "storeID": "215002",
+          "storeName": "羅湖"
+        },
+        {
+          "storeID": "278841",
+          "storeName": "鑫力成"
+        }
+      ]
+    },
+    {
+      "townName": "新豐鄉",
+      "storeData": [
+        {
+          "storeID": "988038",
+          "storeName": "世豊"
+        },
+        {
+          "storeID": "250304",
+          "storeName": "明大"
+        },
+        {
+          "storeID": "255918",
+          "storeName": "明昇"
+        },
+        {
+          "storeID": "254096",
+          "storeName": "明新"
+        },
+        {
+          "storeID": "232834",
+          "storeName": "明嘉"
+        },
+        {
+          "storeID": "154943",
+          "storeName": "欣樂"
+        },
+        {
+          "storeID": "137524",
+          "storeName": "冠宇"
+        },
+        {
+          "storeID": "121460",
+          "storeName": "冠華"
+        },
+        {
+          "storeID": "257752",
+          "storeName": "浦和"
+        },
+        {
+          "storeID": "181831",
+          "storeName": "景碩"
+        },
+        {
+          "storeID": "962977",
+          "storeName": "新庄子"
+        },
+        {
+          "storeID": "967282",
+          "storeName": "新高湖"
+        },
+        {
+          "storeID": "276960",
+          "storeName": "新康"
+        },
+        {
+          "storeID": "273721",
+          "storeName": "新新豐"
+        },
+        {
+          "storeID": "284606",
+          "storeName": "源冠"
+        },
+        {
+          "storeID": "233376",
+          "storeName": "聚豐"
+        },
+        {
+          "storeID": "210029",
+          "storeName": "學府居"
+        },
+        {
+          "storeID": "914037",
+          "storeName": "豐興"
+        }
+      ]
+    },
+    {
+      "townName": "芎林鄉",
+      "storeData": [
+        {
+          "storeID": "991089",
+          "storeName": "芎林"
+        },
+        {
+          "storeID": "181691",
+          "storeName": "宥昌"
+        },
+        {
+          "storeID": "124687",
+          "storeName": "飛凰"
+        },
+        {
+          "storeID": "965932",
+          "storeName": "飛鳳"
+        },
+        {
+          "storeID": "242451",
+          "storeName": "富山"
+        }
+      ]
+    },
+    {
+      "townName": "橫山鄉",
+      "storeData": [
+        {
+          "storeID": "255206",
+          "storeName": "內灣"
+        },
+        {
+          "storeID": "142928",
+          "storeName": "華科"
+        },
+        {
+          "storeID": "910437",
+          "storeName": "橫山"
+        },
+        {
+          "storeID": "180528",
+          "storeName": "騰達"
+        }
+      ]
+    },
+    {
+      "townName": "北埔鄉",
+      "storeData": [
+        {
+          "storeID": "265236",
+          "storeName": "中德"
+        },
+        {
+          "storeID": "215828",
+          "storeName": "金廣福"
+        }
+      ]
+    },
+    {
+      "townName": "寶山鄉",
+      "storeData": [
+        {
+          "storeID": "257970",
+          "storeName": "F20B"
+        },
+        {
+          "storeID": "259921",
+          "storeName": "F20北"
+        },
+        {
+          "storeID": "259909",
+          "storeName": "F20南"
+        },
+        {
+          "storeID": "233675",
+          "storeName": "P8廠北"
+        },
+        {
+          "storeID": "241805",
+          "storeName": "P8廠南"
+        },
+        {
+          "storeID": "143552",
+          "storeName": "台積"
+        },
+        {
+          "storeID": "122290",
+          "storeName": "台積P6"
+        },
+        {
+          "storeID": "912927",
+          "storeName": "台積二"
+        },
+        {
+          "storeID": "912938",
+          "storeName": "台積三"
+        },
+        {
+          "storeID": "130338",
+          "storeName": "台積電"
+        },
+        {
+          "storeID": "267151",
+          "storeName": "乾坤科"
+        },
+        {
+          "storeID": "912617",
+          "storeName": "情友"
+        },
+        {
+          "storeID": "207573",
+          "storeName": "啟碁"
+        },
+        {
+          "storeID": "183343",
+          "storeName": "進一廠"
+        },
+        {
+          "storeID": "161125",
+          "storeName": "園區"
+        },
+        {
+          "storeID": "953696",
+          "storeName": "盟創"
+        },
+        {
+          "storeID": "277011",
+          "storeName": "緯創舍"
+        },
+        {
+          "storeID": "154080",
+          "storeName": "積七"
+        },
+        {
+          "storeID": "991078",
+          "storeName": "聯電S"
+        },
+        {
+          "storeID": "242532",
+          "storeName": "寶進"
+        },
+        {
+          "storeID": "131272",
+          "storeName": "寶雅"
+        },
+        {
+          "storeID": "240525",
+          "storeName": "寶謙"
+        }
+      ]
+    },
+    {
+      "townName": "峨眉鄉",
+      "storeData": []
+    },
+    {
+      "townName": "尖石鄉",
+      "storeData": [
+        {
+          "storeID": "230768",
+          "storeName": "尖石"
+        }
+      ]
+    },
+    {
+      "townName": "五峰鄉",
+      "storeData": [
+        {
+          "storeID": "265373",
+          "storeName": "五峰鄉"
+        }
+      ]
+    }
+  ]
+}

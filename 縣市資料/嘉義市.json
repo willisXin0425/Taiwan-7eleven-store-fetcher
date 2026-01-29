@@ -1,0 +1,307 @@
+{
+  "city": "嘉義市",
+  "storeData": [
+    {
+      "townName": "東區",
+      "storeData": [
+        {
+          "storeID": "250555",
+          "storeName": "元福"
+        },
+        {
+          "storeID": "260781",
+          "storeName": "台林"
+        },
+        {
+          "storeID": "187965",
+          "storeName": "立宣"
+        },
+        {
+          "storeID": "990248",
+          "storeName": "旭豐"
+        },
+        {
+          "storeID": "130154",
+          "storeName": "東嘉院"
+        },
+        {
+          "storeID": "258308",
+          "storeName": "林森東"
+        },
+        {
+          "storeID": "249049",
+          "storeName": "軍暉"
+        },
+        {
+          "storeID": "236043",
+          "storeName": "砡安"
+        },
+        {
+          "storeID": "192750",
+          "storeName": "湖興"
+        },
+        {
+          "storeID": "268132",
+          "storeName": "雅玥"
+        },
+        {
+          "storeID": "253576",
+          "storeName": "新大業"
+        },
+        {
+          "storeID": "982454",
+          "storeName": "新嘉家"
+        },
+        {
+          "storeID": "981624",
+          "storeName": "新嘉院"
+        },
+        {
+          "storeID": "283669",
+          "storeName": "新嘉商"
+        },
+        {
+          "storeID": "951070",
+          "storeName": "新嘉基"
+        },
+        {
+          "storeID": "249326",
+          "storeName": "義東"
+        },
+        {
+          "storeID": "909323",
+          "storeName": "嘉工"
+        },
+        {
+          "storeID": "951601",
+          "storeName": "嘉文"
+        },
+        {
+          "storeID": "251994",
+          "storeName": "嘉和"
+        },
+        {
+          "storeID": "284189",
+          "storeName": "嘉府"
+        },
+        {
+          "storeID": "180023",
+          "storeName": "嘉林"
+        },
+        {
+          "storeID": "972125",
+          "storeName": "嘉英"
+        },
+        {
+          "storeID": "112503",
+          "storeName": "嘉雅"
+        },
+        {
+          "storeID": "180780",
+          "storeName": "嘉義大"
+        },
+        {
+          "storeID": "180791",
+          "storeName": "嘉潭"
+        },
+        {
+          "storeID": "116262",
+          "storeName": "精城"
+        },
+        {
+          "storeID": "268431",
+          "storeName": "鳳彥"
+        },
+        {
+          "storeID": "232801",
+          "storeName": "臻暉"
+        },
+        {
+          "storeID": "844882",
+          "storeName": "彌陀"
+        },
+        {
+          "storeID": "251673",
+          "storeName": "蘭潭"
+        }
+      ]
+    },
+    {
+      "townName": "西區",
+      "storeData": [
+        {
+          "storeID": "283485",
+          "storeName": "八大"
+        },
+        {
+          "storeID": "253222",
+          "storeName": "大統"
+        },
+        {
+          "storeID": "141512",
+          "storeName": "北社尾"
+        },
+        {
+          "storeID": "276203",
+          "storeName": "四圍"
+        },
+        {
+          "storeID": "260770",
+          "storeName": "光彩"
+        },
+        {
+          "storeID": "281559",
+          "storeName": "回家"
+        },
+        {
+          "storeID": "182742",
+          "storeName": "安捷"
+        },
+        {
+          "storeID": "166500",
+          "storeName": "秀泰"
+        },
+        {
+          "storeID": "280361",
+          "storeName": "保愛"
+        },
+        {
+          "storeID": "260725",
+          "storeName": "垂楊"
+        },
+        {
+          "storeID": "274551",
+          "storeName": "香湖"
+        },
+        {
+          "storeID": "199935",
+          "storeName": "桃城"
+        },
+        {
+          "storeID": "260426",
+          "storeName": "健康"
+        },
+        {
+          "storeID": "196202",
+          "storeName": "國華"
+        },
+        {
+          "storeID": "967318",
+          "storeName": "博元"
+        },
+        {
+          "storeID": "206639",
+          "storeName": "富砡"
+        },
+        {
+          "storeID": "260943",
+          "storeName": "湖子內"
+        },
+        {
+          "storeID": "182926",
+          "storeName": "湖康"
+        },
+        {
+          "storeID": "278416",
+          "storeName": "圓環"
+        },
+        {
+          "storeID": "252023",
+          "storeName": "新車店"
+        },
+        {
+          "storeID": "981107",
+          "storeName": "新港坪"
+        },
+        {
+          "storeID": "278427",
+          "storeName": "新瑞鴻"
+        },
+        {
+          "storeID": "206732",
+          "storeName": "新嘉友"
+        },
+        {
+          "storeID": "250692",
+          "storeName": "新嘉勝"
+        },
+        {
+          "storeID": "137797",
+          "storeName": "新嘉醫"
+        },
+        {
+          "storeID": "110426",
+          "storeName": "資砡"
+        },
+        {
+          "storeID": "261234",
+          "storeName": "鈺順"
+        },
+        {
+          "storeID": "275428",
+          "storeName": "嘉上"
+        },
+        {
+          "storeID": "280073",
+          "storeName": "嘉北"
+        },
+        {
+          "storeID": "980034",
+          "storeName": "嘉永"
+        },
+        {
+          "storeID": "238441",
+          "storeName": "嘉西"
+        },
+        {
+          "storeID": "165482",
+          "storeName": "嘉坪"
+        },
+        {
+          "storeID": "267287",
+          "storeName": "嘉城"
+        },
+        {
+          "storeID": "265133",
+          "storeName": "嘉洋"
+        },
+        {
+          "storeID": "947679",
+          "storeName": "嘉高"
+        },
+        {
+          "storeID": "255181",
+          "storeName": "嘉華"
+        },
+        {
+          "storeID": "209915",
+          "storeName": "嘉愛"
+        },
+        {
+          "storeID": "281711",
+          "storeName": "嘉義新榮"
+        },
+        {
+          "storeID": "282312",
+          "storeName": "嘉義榮醫"
+        },
+        {
+          "storeID": "912639",
+          "storeName": "嘉達"
+        },
+        {
+          "storeID": "250027",
+          "storeName": "嘉榮"
+        },
+        {
+          "storeID": "923020",
+          "storeName": "嘉賓"
+        },
+        {
+          "storeID": "261533",
+          "storeName": "嘉德"
+        }
+      ]
+    }
+  ]
+}

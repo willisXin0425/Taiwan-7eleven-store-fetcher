@@ -1,4 +1,4 @@
-const city_id = [
+module.exports = [
   {
     area: "台北市",
     areaID: "01",
@@ -100,7 +100,3 @@ const city_id = [
     areaID: "25",
   },
 ];
-
-module.exports = {
-  store_id,
-};

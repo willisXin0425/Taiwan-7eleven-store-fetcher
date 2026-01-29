@@ -1,0 +1,534 @@
+{
+  "city": "花蓮縣",
+  "storeData": [
+    {
+      "townName": "花蓮市",
+      "storeData": [
+        {
+          "storeID": "268291",
+          "storeName": "十六股"
+        },
+        {
+          "storeID": "121057",
+          "storeName": "吉野"
+        },
+        {
+          "storeID": "251064",
+          "storeName": "名品"
+        },
+        {
+          "storeID": "283197",
+          "storeName": "好家園"
+        },
+        {
+          "storeID": "959177",
+          "storeName": "如意"
+        },
+        {
+          "storeID": "277125",
+          "storeName": "尚美"
+        },
+        {
+          "storeID": "261315",
+          "storeName": "花農"
+        },
+        {
+          "storeID": "240879",
+          "storeName": "花道"
+        },
+        {
+          "storeID": "197973",
+          "storeName": "花蓮"
+        },
+        {
+          "storeID": "256210",
+          "storeName": "花蓮美崙"
+        },
+        {
+          "storeID": "195036",
+          "storeName": "金秀和"
+        },
+        {
+          "storeID": "943725",
+          "storeName": "長勝"
+        },
+        {
+          "storeID": "208060",
+          "storeName": "門諾"
+        },
+        {
+          "storeID": "277642",
+          "storeName": "思瑀"
+        },
+        {
+          "storeID": "235637",
+          "storeName": "政東"
+        },
+        {
+          "storeID": "253945",
+          "storeName": "星潭"
+        },
+        {
+          "storeID": "268741",
+          "storeName": "茗旺"
+        },
+        {
+          "storeID": "183457",
+          "storeName": "國盛"
+        },
+        {
+          "storeID": "923134",
+          "storeName": "統軒"
+        },
+        {
+          "storeID": "260699",
+          "storeName": "富泰"
+        },
+        {
+          "storeID": "166522",
+          "storeName": "富集"
+        },
+        {
+          "storeID": "198862",
+          "storeName": "華原"
+        },
+        {
+          "storeID": "950723",
+          "storeName": "華廈"
+        },
+        {
+          "storeID": "891420",
+          "storeName": "慈濟"
+        },
+        {
+          "storeID": "174350",
+          "storeName": "愛民"
+        },
+        {
+          "storeID": "910965",
+          "storeName": "新蓮信"
+        },
+        {
+          "storeID": "235969",
+          "storeName": "福旺"
+        },
+        {
+          "storeID": "210993",
+          "storeName": "福原"
+        },
+        {
+          "storeID": "966739",
+          "storeName": "德安一"
+        },
+        {
+          "storeID": "232214",
+          "storeName": "蓮正"
+        },
+        {
+          "storeID": "987747",
+          "storeName": "蓮成"
+        },
+        {
+          "storeID": "274414",
+          "storeName": "蓮昌"
+        },
+        {
+          "storeID": "217123",
+          "storeName": "蓮冠"
+        },
+        {
+          "storeID": "872382",
+          "storeName": "蓮美"
+        },
+        {
+          "storeID": "131836",
+          "storeName": "蓮圓"
+        },
+        {
+          "storeID": "113665",
+          "storeName": "蓮慈"
+        },
+        {
+          "storeID": "113056",
+          "storeName": "蓮慶"
+        },
+        {
+          "storeID": "280486",
+          "storeName": "蓮興"
+        },
+        {
+          "storeID": "249773",
+          "storeName": "蓮權"
+        },
+        {
+          "storeID": "252148",
+          "storeName": "蓮讚"
+        },
+        {
+          "storeID": "122935",
+          "storeName": "豐川"
+        },
+        {
+          "storeID": "212391",
+          "storeName": "權營"
+        },
+        {
+          "storeID": "981738",
+          "storeName": "鑫花蓮"
+        },
+        {
+          "storeID": "980137",
+          "storeName": "鑫盈佳"
+        },
+        {
+          "storeID": "174899",
+          "storeName": "讚福"
+        },
+        {
+          "storeID": "920342",
+          "storeName": "讚蓮"
+        }
+      ]
+    },
+    {
+      "townName": "鳳林鎮",
+      "storeData": [
+        {
+          "storeID": "110312",
+          "storeName": "林田山"
+        },
+        {
+          "storeID": "281076",
+          "storeName": "林榮"
+        },
+        {
+          "storeID": "256450",
+          "storeName": "花蓮南平"
+        },
+        {
+          "storeID": "881951",
+          "storeName": "鳳林"
+        },
+        {
+          "storeID": "257796",
+          "storeName": "鳳林鳳悅"
+        },
+        {
+          "storeID": "155511",
+          "storeName": "鳳悅"
+        }
+      ]
+    },
+    {
+      "townName": "玉里鎮",
+      "storeData": [
+        {
+          "storeID": "232111",
+          "storeName": "玉仁"
+        },
+        {
+          "storeID": "153375",
+          "storeName": "玉里"
+        },
+        {
+          "storeID": "236272",
+          "storeName": "玉忠"
+        },
+        {
+          "storeID": "181288",
+          "storeName": "玉富"
+        },
+        {
+          "storeID": "174305",
+          "storeName": "樂合"
+        },
+        {
+          "storeID": "902469",
+          "storeName": "璞石閣"
+        },
+        {
+          "storeID": "116413",
+          "storeName": "興玉"
+        }
+      ]
+    },
+    {
+      "townName": "新城鄉",
+      "storeData": [
+        {
+          "storeID": "151759",
+          "storeName": "北埔"
+        },
+        {
+          "storeID": "196165",
+          "storeName": "海星"
+        },
+        {
+          "storeID": "954437",
+          "storeName": "祥祐"
+        },
+        {
+          "storeID": "278209",
+          "storeName": "新廉瀚"
+        },
+        {
+          "storeID": "261407",
+          "storeName": "嘉里"
+        },
+        {
+          "storeID": "138941",
+          "storeName": "精舍"
+        },
+        {
+          "storeID": "254085",
+          "storeName": "蓮莊"
+        },
+        {
+          "storeID": "215105",
+          "storeName": "蓮發"
+        },
+        {
+          "storeID": "873385",
+          "storeName": "蓮嘉"
+        }
+      ]
+    },
+    {
+      "townName": "吉安鄉",
+      "storeData": [
+        {
+          "storeID": "266815",
+          "storeName": "干城"
+        },
+        {
+          "storeID": "920320",
+          "storeName": "仁禮"
+        },
+        {
+          "storeID": "228075",
+          "storeName": "文景"
+        },
+        {
+          "storeID": "212575",
+          "storeName": "永照"
+        },
+        {
+          "storeID": "258744",
+          "storeName": "吉光"
+        },
+        {
+          "storeID": "267863",
+          "storeName": "吉安站"
+        },
+        {
+          "storeID": "264141",
+          "storeName": "吉昌"
+        },
+        {
+          "storeID": "267586",
+          "storeName": "吉強"
+        },
+        {
+          "storeID": "196626",
+          "storeName": "吉華"
+        },
+        {
+          "storeID": "968850",
+          "storeName": "姐妹"
+        },
+        {
+          "storeID": "900072",
+          "storeName": "東海岸"
+        },
+        {
+          "storeID": "259460",
+          "storeName": "南海七"
+        },
+        {
+          "storeID": "952637",
+          "storeName": "南濱"
+        },
+        {
+          "storeID": "967558",
+          "storeName": "富翔"
+        },
+        {
+          "storeID": "912972",
+          "storeName": "慈勝"
+        },
+        {
+          "storeID": "264657",
+          "storeName": "愛田"
+        },
+        {
+          "storeID": "199371",
+          "storeName": "新福興"
+        },
+        {
+          "storeID": "968551",
+          "storeName": "新蓮盈"
+        },
+        {
+          "storeID": "923019",
+          "storeName": "稻香"
+        },
+        {
+          "storeID": "866310",
+          "storeName": "蓮吉"
+        },
+        {
+          "storeID": "173748",
+          "storeName": "蓮安"
+        },
+        {
+          "storeID": "151276",
+          "storeName": "蓮恆"
+        },
+        {
+          "storeID": "151737",
+          "storeName": "蓮陽"
+        },
+        {
+          "storeID": "233295",
+          "storeName": "鑫源"
+        }
+      ]
+    },
+    {
+      "townName": "壽豐鄉",
+      "storeData": [
+        {
+          "storeID": "126661",
+          "storeName": "八悅"
+        },
+        {
+          "storeID": "198297",
+          "storeName": "文瑞"
+        },
+        {
+          "storeID": "880671",
+          "storeName": "志學"
+        },
+        {
+          "storeID": "290232",
+          "storeName": "東華智"
+        },
+        {
+          "storeID": "233893",
+          "storeName": "花蓮理想"
+        },
+        {
+          "storeID": "253761",
+          "storeName": "新壽豐"
+        },
+        {
+          "storeID": "234070",
+          "storeName": "豐學"
+        },
+        {
+          "storeID": "235464",
+          "storeName": "鹽寮"
+        }
+      ]
+    },
+    {
+      "townName": "光復鄉",
+      "storeData": [
+        {
+          "storeID": "236124",
+          "storeName": "太巴塱"
+        },
+        {
+          "storeID": "112824",
+          "storeName": "馬太鞍"
+        },
+        {
+          "storeID": "284123",
+          "storeName": "蓮富"
+        }
+      ]
+    },
+    {
+      "townName": "豐濱鄉",
+      "storeData": [
+        {
+          "storeID": "110415",
+          "storeName": "豐濱"
+        }
+      ]
+    },
+    {
+      "townName": "瑞穗鄉",
+      "storeData": [
+        {
+          "storeID": "228019",
+          "storeName": "天合"
+        },
+        {
+          "storeID": "923293",
+          "storeName": "瑞繐"
+        },
+        {
+          "storeID": "165507",
+          "storeName": "瑞權"
+        }
+      ]
+    },
+    {
+      "townName": "富里鄉",
+      "storeData": [
+        {
+          "storeID": "943987",
+          "storeName": "富鄉"
+        },
+        {
+          "storeID": "193775",
+          "storeName": "興富"
+        }
+      ]
+    },
+    {
+      "townName": "秀林鄉",
+      "storeData": [
+        {
+          "storeID": "880073",
+          "storeName": "太魯閣"
+        },
+        {
+          "storeID": "978260",
+          "storeName": "泰雅"
+        },
+        {
+          "storeID": "114288",
+          "storeName": "崇德盈"
+        },
+        {
+          "storeID": "207540",
+          "storeName": "達基力"
+        },
+        {
+          "storeID": "206949",
+          "storeName": "蓮和"
+        }
+      ]
+    },
+    {
+      "townName": "萬榮鄉",
+      "storeData": [
+        {
+          "storeID": "230953",
+          "storeName": "萬榮"
+        }
+      ]
+    },
+    {
+      "townName": "卓溪鄉",
+      "storeData": [
+        {
+          "storeID": "231185",
+          "storeName": "卓溪"
+        }
+      ]
+    }
+  ]
+}
