@@ -1,4 +1,4 @@
-const store_id = [
+const city_id = [
   {
     area: "台北市",
     areaID: "01",

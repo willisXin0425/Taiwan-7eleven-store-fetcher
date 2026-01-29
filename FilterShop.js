@@ -1,11 +1,3 @@
-const fs = require("fs");
-
-// 儲存 JSON 文件
-const saveToJson = (data, fileName) => {
-  fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
-  console.log(`已成功將資料儲存為 ${fileName}`);
-};
-
 const FilterShop = () => {
   try {
     const rawData = fs.readFileSync("parsed_store_data.json", "utf8");

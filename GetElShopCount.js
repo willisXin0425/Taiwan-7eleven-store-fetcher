@@ -1,6 +1,5 @@
 const axios = require("axios");
 const { DOMParser } = require("xmldom");
-const fs = require("fs");
 const { store_id } = require("./store_Id");
 
 // 解析店家 HTML 資料
@@ -50,12 +49,6 @@ const fetchStoreData = async (item) => {
   };
 
   return cityData;
-};
-
-// 儲存 JSON 文件
-const saveToJson = (data, fileName) => {
-  fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
-  console.log(`已成功將資料儲存為 ${fileName}`);
 };
 
 const handleGetElShop = async () => {
